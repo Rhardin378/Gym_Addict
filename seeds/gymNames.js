@@ -1,52 +1,100 @@
-const gymNames = [
-    Gym Heroes
-Pump It Up
-Center of Strength
-Power Zone
-Home of Fit Kids
-The Muscle Bar
-Strength Palace
-Total Body Gym
-Energy Zone
-Pump House
-Kick it Fitness
-Airdyne Fitness
-Vertical Athlete Gym
-Bands Workout Center
-Mettle Fitness Gym
-Engage Fitness
-Fit Factory Wow
-KMGF Body Techs
-Anytime Fitness Center
-Power Factory Wow
-Power House Studio Gym
-24/7 Workout Gym
-Anytime Fitness Plus
-Power Train/Powertrain
-Studio Fixx
-The Shapes You Want
-Alternative Thinking
-Be Strong
-The Fit Behaviour
-Full Strength
-Work out as One
-Power, Strength, and Fitness
-The Gym
-Ajax Gym
-Alma Fitness Center
-Arctic Health Club
-Artistic Balance Club
-Aspire Gym
-Backhand Sports Training Centre
-Banedan Fitness Centre
-Basic Fit Gym
-Best Body Fitness Club
-Bethune Fitness Club
-Rock Hard Gym
-Golden Gorilla Gym
-Fight Club Gym
-Texas Gym
-Health Club
-Fitness Centre
-Fitness Club
+module.exports.club = [
+'Gym',
+'Up',
+'Strength',
+'Zone',
+'Athletes',
+'Bar',
+'Palace',
+'Gym',
+'Zone',
+'House',
+'Fitness',
+'Fitness',
+'Gym',
+'Center',
+'Gym',
+'Fitness',
+'Factory',
+'Body Techs',
+'Fitness Center',
+'Power Factory',
+'Studio Gym',
+'Gym',
+'Fitness Plus',
+'Studio Fixx',
+'Gym',
+'Strong',
+'Behaviour',
+'Strength',
+'as One',
+'Gym',
+'Gym',
+'Fitness Center',
+'Health Club',
+'Balance Club',
+'Gym',
+'Training Centre',
+'Fitness Centre',
+'Fit Gym',
+'Fitness Club',
+'Fitness Club',
+'Gym',
+'Gym',
+'Gym',
+'Health Club',
+'Fitness Centre',
+'Fitness Club'
 ]
+
+module.exports.description = [
+    
+    'Heroes',
+    'PumpIt',
+    'Center of',
+    'Power',
+    'Home of Fit',
+    'The Muscle',
+    'Strength',
+    'Total Body',
+    'Energy',
+    'Pump',
+    'Kick it',
+    'Airdyne',
+    'Vertical Athlete',
+    'Bands Workout',
+    'Mettle Fitness',
+    'Engage',
+    'Fit Factory',
+    'KMGF Body',
+    'Anytime Fitness',
+    'Power Factory',
+    'Power House',
+    '24/7 Workout',
+    'Anytime Fitness',
+    'Power Train',
+    'Studio Fixx',
+    'The Shapes',
+    'Alternative Thinking',
+    'Be Strong',
+    'The Fit Behaviour',
+    'Full Strength',
+    'Work out as One',
+    'Power, Strength, and Fitness',
+    'The',
+    'Ajax',
+    'Alma',
+    'Arctic',
+    'Artistic Balance',
+    'Aspire',
+    'Backhand Sports',
+    'Banedan',
+    'Basic Fit',
+    'Best Body',
+    'Bethune',
+    'Rock Hard',
+    'Golden Gorilla',
+    'Fight Cluub',
+    'Iron Will',
+    'Health'
+    ]
