@@ -29,11 +29,16 @@ app.get('/gyms', async (req, res)=>{
     const gyms = await Gym.find({});
     res.render('gyms/index', {gyms})
 })
+
+app.get('/gyms/:id', async (req, res) => {
+    const gym = await Gym.findById(req.params.id)
+    res.render('gyms/show', { gym })
+})
 app.get('/makeGym', async (req,res)=>{
     const gym = new Gym({title: 'Victory Fit', description: 'family-friendly gym!'})
     await gym.save();
     res.send(gym)
 })
 app.listen(PORT, ()=>{
-    console.log(`serving on port ${PORT}}`)
+    console.log(`serving on port ${PORT}`)
 })
