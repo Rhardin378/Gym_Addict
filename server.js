@@ -25,6 +25,10 @@ app.set('views', path.join(__dirname, 'views'))
 app.get('/', (req,res)=>{
     res.render('home')
 })
+app.get('/gyms', async (req, res)=>{
+    const gyms = await Gym.find({});
+    res.render('gyms/index', {gyms})
+})
 app.get('/makeGym', async (req,res)=>{
     const gym = new Gym({title: 'Victory Fit', description: 'family-friendly gym!'})
     await gym.save();
